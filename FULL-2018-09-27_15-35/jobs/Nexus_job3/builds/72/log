@@ -1,0 +1,17 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job3
+No emails were triggered.
+[Nexus_job3] $ /bin/sh -xe /tmp/jenkins6201509790333313395.sh
++ echo yes
+yes
++ echo ssadsads
+ssadsads
++ [ yes = yes ]
++ echo set yet triggered to next
+set yet triggered to next
++ echo hello world
++ mail -s a subject deepthimogaparthi1207@gmail.com
+mail: cannot send message: Process exited with a non-zero status
+Build step 'Execute shell' marked build as failure
+No emails were triggered.
+Finished: FAILURE

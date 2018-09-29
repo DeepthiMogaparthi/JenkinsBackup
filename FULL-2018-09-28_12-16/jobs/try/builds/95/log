@@ -1,0 +1,11 @@
+Started by remote host 13.233.10.33
+Building in workspace /var/lib/jenkins/workspace/try
+[try] $ /bin/sh -xe /tmp/jenkins5542366760662777807.sh
++ echo try1
+try1
++ echo car
+car
++ echo dewsx
+dewsx
+[try] $ /bin/sh -xe /tmp/jenkins5043353280684678945.sh
+Finished: SUCCESS

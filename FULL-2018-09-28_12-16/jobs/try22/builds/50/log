@@ -1,0 +1,35 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try22
+################################################################################################################
+  Parameterized Remote Trigger Configuration:
+    - job:                     try 
+    - remoteJenkinsName:       Remote
+    - remoteJenkinsUrl:        http://13.233.10.33:8080
+    - auth:                    'No Authentication'
+    - parameters:              [string=tis, m2=bike, job1=try]
+    - blockBuildUntilComplete: false
+    - connectionRetryLimit:    5
+################################################################################################################
+Triggering parameterized remote job 'http://13.233.10.33:8080/job/try'
+  Using job-level defined 'No Authentication'
+Triggering remote job now.
+CSRF protection is enabled on the remote server.
+The remote job is pending. Waiting for next available executor.
+  Remote job queue number: 187
+Waiting for remote build to be executed...
+Waiting for 10 seconds until next poll.
+Remote build started!
+  Remote build URL: http://13.232.146.16:8080/job/try/82/
+  Remote build number: 82
+Not blocking local job until remote job completes - fire and forget.
+[try22] $ /bin/sh -xe /tmp/jenkins1546609509565740857.sh
++ echo tis
+tis
++ echo bike
+bike
++ [ bike = car -o bike = bike ]
++ echo next-----------
+next-----------
++ echo bike
+bike
+Finished: SUCCESS

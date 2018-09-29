@@ -1,0 +1,10 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try22
+[try22] $ /bin/sh -xe /tmp/jenkins7026169513681645595.sh
++ cut -d ; -f 1
++ echo bla@some.com;john@home.com
+bla@some.com
++ cut -d ; -f 2
++ echo bla@some.com;john@home.com
+john@home.com
+Finished: SUCCESS

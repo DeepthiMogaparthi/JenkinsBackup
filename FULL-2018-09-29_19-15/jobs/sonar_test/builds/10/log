@@ -1,0 +1,25 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/sonar_test
+Cloning the remote Git repository
+Cloning repository https://github.com/DevopsDevOrg/Repo1.git
+ > git init /var/lib/jenkins/workspace/sonar_test # timeout=10
+Fetching upstream changes from https://github.com/DevopsDevOrg/Repo1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/DevopsDevOrg/Repo1.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/DevopsDevOrg/Repo1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/DevopsDevOrg/Repo1.git # timeout=10
+Fetching upstream changes from https://github.com/DevopsDevOrg/Repo1.git
+ > git fetch --tags --progress https://github.com/DevopsDevOrg/Repo1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 39e84c4fef497cc2ea16467f51a56e6a913ae80a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 39e84c4fef497cc2ea16467f51a56e6a913ae80a
+Commit message: "Create hello"
+ > git rev-list --no-walk 39e84c4fef497cc2ea16467f51a56e6a913ae80a # timeout=10
+[sonar_test] $ /bin/sh -xe /tmp/jenkins5906315254884114922.sh
++ cp /var/lib/jenkins/workspace/sonar_test/ /var/repository
+cp: omitting directory '/var/lib/jenkins/workspace/sonar_test/'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

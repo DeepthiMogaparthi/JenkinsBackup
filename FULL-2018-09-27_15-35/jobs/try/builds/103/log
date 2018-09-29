@@ -1,0 +1,11 @@
+Started by remote host 13.233.10.33
+Building in workspace /var/lib/jenkins/workspace/try
+[try] $ /bin/sh -xe /tmp/jenkins4684522517078538929.sh
++ echo try1
+try1
++ echo the choice coming from job2 is bike
+the choice coming from job2 is bike
++ echo the string coming from job2 is dwqd
+the string coming from job2 is dwqd
+[try] $ /bin/sh -xe /tmp/jenkins6542674965348794928.sh
+Finished: SUCCESS

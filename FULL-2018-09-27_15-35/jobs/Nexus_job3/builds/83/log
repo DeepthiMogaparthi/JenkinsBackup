@@ -1,0 +1,19 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job3
+No emails were triggered.
+[Nexus_job3] $ /bin/sh -xe /tmp/jenkins2618925609274289116.sh
++ echo yes
+yes
++ echo dfghjk
+dfghjk
++ [ yes = yes ]
++ echo triggered to next
+triggered to next
++ mail -s a subject deepthimogaparthi1207@gmail.com
+/tmp/jenkins2618925609274289116.sh: 11: /tmp/jenkins2618925609274289116.sh: mail: not found
++ echo hello world
+Build step 'Execute shell' marked build as failure
+Email was triggered for: Always
+Sending email for trigger: Always
+An attempt to send an e-mail to empty list of recipients, ignored.
+Finished: FAILURE

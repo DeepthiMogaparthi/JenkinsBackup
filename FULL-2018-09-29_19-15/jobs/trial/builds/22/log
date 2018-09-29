@@ -1,0 +1,11 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job11
+[Nexus_job11] $ /bin/sh -xe /tmp/jenkins3527772871975198069.sh
++ [yes == choose ]
+/tmp/jenkins3527772871975198069.sh: 2: /tmp/jenkins3527772871975198069.sh: [yes: not found
++ [ yes == yes ]
+/tmp/jenkins3527772871975198069.sh: 7: [: yes: unexpected operator
++ [ yes == no ]
+/tmp/jenkins3527772871975198069.sh: 11: [: yes: unexpected operator
+Triggering a new build of [8mha:////4EM5ZQUHkon9hTMHMN3oUw2e8UEaVeAgoMcg5DHbt6rtAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2/1IrS4nggy0gfAAR/iEXFAAAA[0mNexus_job2
+Finished: SUCCESS

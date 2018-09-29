@@ -1,0 +1,8 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/trial
+[trial] $ /bin/sh -xe /tmp/jenkins6561187926098197577.sh
++ [ yes -eq  ]
+/tmp/jenkins6561187926098197577.sh: 3: [: Illegal number: yes
++ echo a is not equal to b
+a is not equal to b
+Finished: SUCCESS

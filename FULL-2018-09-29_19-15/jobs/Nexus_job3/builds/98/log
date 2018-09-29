@@ -1,0 +1,19 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Started by upstream project "[8mha:////4FQQ9viwVioolYiTnhcckWky/ONXY2irK/g+dWM3JwjVAAAAwB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZT/UQTC9MUC1MzXXMDQ1NdkyRjS93E5FRT3bQUoxTLpCTTNFNzI/2s/CR9v9SK0uJ4IMtIHwAQhmaC6gAAAA==[0mNexus_job2" build number [8mha:////4InsiyexJR8OG7Etx5+XFEm+AxNUYq/KQkWsDtz/bO4JAAAAwx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgYL/UQTC9MUC1MzXXMDQ1NdkyRjS93E5FRT3bQUoxTLpCTTNFNzI/2s/CR9v9SK0uJ4IMtI39DIEgD4Px4o7QAAAA==[0m129
+originally caused by:
+ Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+ Started by upstream project "[8mha:////4D4eNwE+1K+Bzd/GTsszQnUzDjuiHNrdm55iIeuJY/dLAAAAwB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZTfbOUJCNTE8tkXbM0i0Rdk2RTI90kM8tE3STDNONEEwvzNINkC/2s/CR9v9SK0uJ4IMtQHwBd9/5Y6gAAAA==[0mNexus_job1" build number [8mha:////4FYm0AsoLguVwLUjegavF+cSxwlTd3C4E8OWORkC0tQqAAAAwh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZzfbOUJCNTE8tkXbM0i0Rdk2RTI90kM8tE3STDNONEEwvzNINkC/2s/CR9v9SK0uJ4IMtQ39ISALEPPPvsAAAA[0m99
+ originally caused by:
+  Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job3
+No emails were triggered.
+[Nexus_job3] $ /bin/sh -xe /tmp/jenkins7638858484188008112.sh
++ echo Hello World
+Hello World
++ echo yes
+yes
++ [ Hello World = no ]
+Email was triggered for: Success
+Sending email for trigger: Success
+Sending email to: deepthimogaparthi1207@gmail.com
+Finished: SUCCESS

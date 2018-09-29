@@ -1,0 +1,15 @@
+Started by remote host 13.232.28.38
+Building in workspace /var/lib/jenkins/workspace/try
+[try] $ /bin/bash /tmp/jenkins3304379507712631084.sh
+try
+http://13.232.28.38:8080
+value at 0  car 
+value at 1  bike 
+value at 2  truck 
+the string value entered by  is mmm
+the choice you have selected is car
+the job you have selected is    
+value in ADD1 is 
+value in ADD2 is 
+The file failed because of unmatching
+Finished: SUCCESS

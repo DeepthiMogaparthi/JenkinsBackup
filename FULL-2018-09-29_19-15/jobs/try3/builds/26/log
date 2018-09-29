@@ -1,0 +1,22 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try3
+No emails were triggered.
+[try3] $ /bin/bash /tmp/jenkins1805534150905021113.sh
+try3
+http://13.232.28.38:8080
+value at 0  car 
+value at 1  bike 
+value at 2  truck 
+the string value entered by  is 
+the choice you have selected is select
+the job you have selected is    try
+value in ADD1 is try
+value in ADD2 is try
+The file failed because of unmatching
+Email was triggered for: Always
+Email was triggered for: Success
+Sending email for trigger: Always
+Sending email to: deepthimogaparthi1207@gmail.com deepthimogaparthi127@gmail.com
+Sending email for trigger: Success
+An attempt to send an e-mail to empty list of recipients, ignored.
+Finished: SUCCESS

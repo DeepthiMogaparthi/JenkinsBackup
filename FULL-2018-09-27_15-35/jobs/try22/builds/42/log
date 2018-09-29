@@ -1,0 +1,38 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try22
+################################################################################################################
+  Parameterized Remote Trigger Configuration:
+    - job:                     try 
+    - remoteJenkinsName:       Remote
+    - remoteJenkinsUrl:        http://13.127.113.76:8080
+    - auth:                    'No Authentication'
+    - parameters:              [string=dede, m2=bike]
+    - blockBuildUntilComplete: false
+    - connectionRetryLimit:    5
+################################################################################################################
+Triggering parameterized remote job 'http://13.127.113.76:8080/job/try'
+  Using job-level defined 'No Authentication'
+Triggering remote job now.
+CSRF protection is enabled on the remote server.
+[WARNING] The attribute "number" was not found. Unexpected response: {"_class":"hudson.model.Queue$WaitingItem","actions":[{"_class":"hudson.model.ParametersAction","parameters":[{"_class":"hudson.model.StringParameterValue","name":"string","value":"dede"},{"_class":"hudson.model.StringParameterValue","name":"m2","value":"bike"}]},{"_class":"hudson.model.CauseAction","causes":[{"_class":"hudson.model.Cause$RemoteCause","shortDescription":"Started by remote host 13.127.113.76","addr":"13.127.113.76","note":null}]}],"blocked":false,"buildable":false,"id":172,"inQueueSince":1537937664284,"params":"\nstring=dede\nm2=bike","stuck":false,"task":{"_class":"hudson.model.FreeStyleProject","name":"try","url":"http://13.232.146.16:8080/job/try/","color":"blue"},"url":"queue/item/172/","why":"???","timestamp":1537937664284}
+[WARNING] The attribute "url" was not found. Unexpected response: {"_class":"hudson.model.Queue$WaitingItem","actions":[{"_class":"hudson.model.ParametersAction","parameters":[{"_class":"hudson.model.StringParameterValue","name":"string","value":"dede"},{"_class":"hudson.model.StringParameterValue","name":"m2","value":"bike"}]},{"_class":"hudson.model.CauseAction","causes":[{"_class":"hudson.model.Cause$RemoteCause","shortDescription":"Started by remote host 13.127.113.76","addr":"13.127.113.76","note":null}]}],"blocked":false,"buildable":false,"id":172,"inQueueSince":1537937664284,"params":"\nstring=dede\nm2=bike","stuck":false,"task":{"_class":"hudson.model.FreeStyleProject","name":"try","url":"http://13.232.146.16:8080/job/try/","color":"blue"},"url":"queue/item/172/","why":"???","timestamp":1537937664284}
+  Remote job queue number: 172
+Waiting for remote build to be executed...
+Waiting for 10 seconds until next poll.
+Remote build started!
+  Remote build URL: http://13.232.146.16:8080/job/try/75/
+  Remote build number: 75
+Not blocking local job until remote job completes - fire and forget.
+[try22] $ /bin/sh -xe /tmp/jenkins8551647288847912791.sh
++ echo dede
+dede
++ echo bike
+bike
++ [ bike = car -o bike = bike ]
++ echo next-----------
+next-----------
++ echo bike
+bike
++ echo
+
+Finished: SUCCESS

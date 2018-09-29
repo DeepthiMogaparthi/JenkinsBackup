@@ -1,0 +1,36 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try2
+[try2] $ /bin/bash /tmp/jenkins2116617752360483849.sh
+value at 0  car 
+value at 1  bike 
+value at 2  truck 
+the choice you have selected is car
+Found car
+triggered next job
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    46  100    46    0     0   4227      0 --:--:-- --:--:-- --:--:--  4600
+Jenkins-Crumb:e2a66ac5c7d5fae19c64e7edcbdb3f9a* Rebuilt URL to: POST/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Could not resolve host: POST
+* Closing connection 0
+curl: (6) Could not resolve host: POST
+*   Trying 13.233.10.33...
+* Connected to 13.233.10.33 (13.233.10.33) port 8080 (#1)
+> GET /job/try/buildWithParameters?token=abc&string1=ref&choice1=car HTTP/1.1
+> Host: 13.233.10.33:8080
+> User-Agent: curl/7.47.0
+> Accept: */*
+> 
+< HTTP/1.1 201 Created
+< Date: Thu, 27 Sep 2018 05:10:19 GMT
+< X-Content-Type-Options: nosniff
+< Location: http://13.233.10.33:8080/queue/item/292/
+< Content-Length: 0
+< Server: Jetty(9.4.z-SNAPSHOT)
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #1 to host 13.233.10.33 left intact
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,65 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>string2</name>
+          <description></description>
+          <value>ewd</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>model2</name>
+          <description></description>
+          <value>bike</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>string2</string>
+        <string>model2</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.ParameterizedRemoteTrigger.remoteJob.RemoteBuildInfoExporterAction plugin="Parameterized-Remote-Trigger@3.0.5">
+      <builds>
+        <org.jenkinsci.plugins.ParameterizedRemoteTrigger.remoteJob.RemoteBuildInfoExporterAction_-BuildReference>
+          <projectName>try</projectName>
+          <buildNumber>73</buildNumber>
+          <buildInfo>
+            <queueId>168</queueId>
+            <buildNumber>73</buildNumber>
+            <buildURL>http://13.232.146.16:8080/job/try/73/</buildURL>
+            <status>RUNNING</status>
+            <result>NOT_BUILT</result>
+          </buildInfo>
+          <jobURL>http://13.232.146.16:8080/job/try/73/</jobURL>
+        </org.jenkinsci.plugins.ParameterizedRemoteTrigger.remoteJob.RemoteBuildInfoExporterAction_-BuildReference>
+      </builds>
+    </org.jenkinsci.plugins.ParameterizedRemoteTrigger.remoteJob.RemoteBuildInfoExporterAction>
+    <hudson.plugins.promoted__builds__simple.PromoteAction plugin="promoted-builds-simple@1.9">
+      <levelValue>0</levelValue>
+    </hudson.plugins.promoted__builds__simple.PromoteAction>
+  </actions>
+  <queueId>167</queueId>
+  <timestamp>1537937214136</timestamp>
+  <startTime>1537937214138</startTime>
+  <result>SUCCESS</result>
+  <duration>10088</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/try22</workspace>
+  <hudsonVersion>2.138.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

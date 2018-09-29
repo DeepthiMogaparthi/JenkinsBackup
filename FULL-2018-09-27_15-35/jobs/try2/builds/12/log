@@ -1,0 +1,30 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try2
+[try2] $ /bin/sh -xe /tmp/jenkins4483816685063443437.sh
++ echo try2
+try2
++ curl -v -X --user admin:admin --url http://13.127.139.222:8080/job/try/buildWithParameters?token=abc
+* Rebuilt URL to: admin:admin/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Could not resolve host: admin
+* Closing connection 0
+curl: (6) Could not resolve host: admin
+*   Trying 13.127.139.222...
+* Connected to 13.127.139.222 (13.127.139.222) port 8080 (#1)
+> --user /job/try/buildWithParameters?token=abc HTTP/1.1
+> Host: 13.127.139.222:8080
+> User-Agent: curl/7.47.0
+> Accept: */*
+> 
+< HTTP/1.1 201 Created
+< Date: Tue, 25 Sep 2018 05:56:51 GMT
+< X-Content-Type-Options: nosniff
+< Location: http://13.127.139.222:8080/queue/item/18/
+< Content-Length: 0
+< Server: Jetty(9.4.z-SNAPSHOT)
+< 
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+* Connection #1 to host 13.127.139.222 left intact
++ string1=sdf
+Finished: SUCCESS

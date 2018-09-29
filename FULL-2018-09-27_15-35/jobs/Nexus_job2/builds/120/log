@@ -1,0 +1,17 @@
+Started by upstream project "[8mha:////4N7bnUO+v6w5MMMgtxOOCpdVqKmISsCEM1DvprDpdegHAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2/1IrS4nggy1AfAMcspW7FAAAA[0mNexus_job1" build number [8mha:////4GqvF3WtV+hresAaL/CKqwfdCG/z77ueyxSbfpcomdoGAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwmoBn6WflJ+n6pFaXF8UCWob6lAQDXzBASxwAAAA==[0m90
+originally caused by:
+ Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job2
+[Nexus_job2] $ /bin/sh -xe /tmp/jenkins3639130079962835191.sh
++ echo Hello World
+Hello World
++ echo assignment1[552].txt
+assignment1[552].txt
++ echo lol2.txt
+lol2.txt
++ echo /var/lib/jenkins/workspace/Nexus_job1
+/var/lib/jenkins/workspace/Nexus_job1
++ echo yes
+yes
+Triggering a new build of [8mha:////4GA01hH/YKE/GiEZN6kcwa8xtNjDVO5zu2LW/JtHqfrlAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2/1IrS4nggy1gfAEVOk1zFAAAA[0mNexus_job3
+Finished: SUCCESS

@@ -1,0 +1,8 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job3
+[Nexus_job3] $ /bin/sh -xe /tmp/jenkins7767065120290196581.sh
++ echo Hello
++ sendmail -f deepthimogaparthi1207@gmail.com
+/tmp/jenkins7767065120290196581.sh: 2: /tmp/jenkins7767065120290196581.sh: sendmail: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

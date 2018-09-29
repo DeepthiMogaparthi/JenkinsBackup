@@ -1,0 +1,73 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.mavenrepocleaner.MavenRepoCleanerProperty plugin="maven-repo-cleaner@1.2">
+      <notOnThisProject>false</notOnThisProject>
+    </org.jenkinsci.plugins.mavenrepocleaner.MavenRepoCleanerProperty>
+    <com.synopsys.arc.jenkinsci.plugins.jobrestrictions.jobs.JobRestrictionProperty plugin="job-restrictions@0.7"/>
+    <org.jenkinsci.plugins.sharedworkspace.SharedWorkspace plugin="shared-workspace@1.0.2">
+      <name>NONE</name>
+    </org.jenkinsci.plugins.sharedworkspace.SharedWorkspace>
+    <hudson.plugins.throttleconcurrents.ThrottleJobProperty plugin="throttle-concurrents@2.0.1">
+      <maxConcurrentPerNode>0</maxConcurrentPerNode>
+      <maxConcurrentTotal>0</maxConcurrentTotal>
+      <categories class="java.util.concurrent.CopyOnWriteArrayList"/>
+      <throttleEnabled>false</throttleEnabled>
+      <throttleOption>project</throttleOption>
+      <limitOneJobWithMatchingParams>false</limitOneJobWithMatchingParams>
+      <paramsToUseForLimit></paramsToUseForLimit>
+    </hudson.plugins.throttleconcurrents.ThrottleJobProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+
+echo &quot;bla@some.com;john@home.com&quot; | cut -d &quot;;&quot; -f 1
+echo &quot;bla@some.com;john@home.com&quot; | cut -d &quot;;&quot; -f 2
+
+
+IN=&quot;bla@some.com;john@home.com&quot;
+echo ADD1=`echo $IN | cut -d \; -f 1`
+echo ADD2=`echo $IN | cut -d \; -f 2`
+ 
+
+
+# Log Location on Server.
+LOG_LOCATION=$WORKSPACE
+exec &gt; &gt;(tee -i $LOG_LOCATION/MylogFile.log)
+exec 2&gt;&amp;1
+
+#echo &quot;Log Location should be: [ $LOG_LOCATION ]&quot;
+echo &quot;The file failed because of unmatching&quot;
+
+
+array=(&quot;item 1&quot; &quot;item 2&quot; &quot;item 3&quot;)
+for i in &quot;${array[@]}&quot;; do   # The quotes are necessary here
+    echo &quot;$i&quot;
+done
+
+list=&apos;&quot;item 1&quot; &quot;item 2&quot; &quot;item 3&quot;&apos;
+for i in $list; do
+    echo $i
+done
+for i in &quot;$list&quot;; do
+    echo $i
+done
+for i in ${array[@]}; do
+    echo $i
+done</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

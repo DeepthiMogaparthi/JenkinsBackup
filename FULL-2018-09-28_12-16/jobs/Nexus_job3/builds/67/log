@@ -1,0 +1,24 @@
+Started by upstream project "[8mha:////4EM5ZQUHkon9hTMHMN3oUw2e8UEaVeAgoMcg5DHbt6rtAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2/1IrS4nggy0gfAAR/iEXFAAAA[0mNexus_job2" build number [8mha:////4N16NAUO/rOdTjDHGvoRPq0Cvs/vDGbSefOSUKuHN5/+AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZh/az8JH2/1IrS4nggy0jf0MgIAM5x4YfIAAAA[0m122
+originally caused by:
+ Started by upstream project "[8mha:////4N7bnUO+v6w5MMMgtxOOCpdVqKmISsCEM1DvprDpdegHAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2/1IrS4nggy1AfAMcspW7FAAAA[0mNexus_job1" build number [8mha:////4CEKT3LkpEXgy8iLVCnsJPVq8wcTxBubblXuAbHKu0ZVAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwmoBn6WflJ+n6pFaXF8UCWob6lEQD7rR78xwAAAA==[0m92
+ originally caused by:
+  Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job3
+No emails were triggered.
+[Nexus_job3] $ /bin/sh -xe /tmp/jenkins3786019726990679983.sh
++ echo Hello World
+Hello World
++ echo yes
+yes
++ echo
++ mutt -a -s deepthimogaparthi127@gmail.com
+Can't stat -s: No such file or directory
+-s: unable to attach file.
+Build step 'Execute shell' marked build as failure
+Email was triggered for: Status Changed
+Sending email for trigger: Status Changed
+Sending email to: anup0gupta@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: FAILURE

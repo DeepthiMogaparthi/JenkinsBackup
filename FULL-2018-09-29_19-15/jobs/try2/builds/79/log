@@ -1,0 +1,57 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try2
+[try2] $ /bin/sh -xe /tmp/jenkins5899378722612495943.sh
++ crumb= curl http://104.196.45.121:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,%22:%22,//crumb)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   991  100   991    0     0   2027      0 --:--:-- --:--:-- --:--:--  2030
+<html><head><meta http-equiv='refresh' content='1;url=/login?from=%2FcrumbIssuer%2Fapi%2Fxml%3Fxpath%3Dconcat%28%2F%2FcrumbRequestField%2C%2522%3A%2522%2C%2F%2Fcrumb%29'/><script>window.location.replace('/login?from=%2FcrumbIssuer%2Fapi%2Fxml%3Fxpath%3Dconcat%28%2F%2FcrumbRequestField%2C%2522%3A%2522%2C%2F%2Fcrumb%29');</script></head><body style='background-color:white; color:white;'>
+
+
+Authentication required
+<!--
+You are authenticated as: anonymous
+Groups that you are in:
+  
+Permission you need to have (but didn't): hudson.model.Hudson.Read
+ ... which is implied by: hudson.security.Permission.GenericRead
+ ... which is implied by: hudson.model.Hudson.Administer
+-->
+
+</body></html>                                                                                                                                                                                                                                                                                                            + curl -v -H --user admin:admin -X POST --url http://13.233.10.33:8080/job/try/buildWithParameters?token=abc&string1=eweqw&choice1=bike
+* Rebuilt URL to: admin:admin/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Could not resolve host: admin
+* Closing connection 0
+curl: (6) Could not resolve host: admin
+*   Trying 13.233.10.33...
+* Connected to 13.233.10.33 (13.233.10.33) port 8080 (#1)
+> POST /job/try/buildWithParameters?token=abc&string1=eweqw&choice1=bike HTTP/1.1
+> Host: 13.233.10.33:8080
+> User-Agent: curl/7.47.0
+> Accept: */*
+> 
+< HTTP/1.1 403 No valid crumb was included in the request
+< Date: Wed, 26 Sep 2018 10:39:30 GMT
+< X-Content-Type-Options: nosniff
+< Cache-Control: must-revalidate,no-cache,no-store
+< Content-Type: text/html;charset=iso-8859-1
+< Content-Length: 408
+< Server: Jetty(9.4.z-SNAPSHOT)
+< 
+{ [408 bytes data]
+100   408  100   408    0     0   277k      0 --:--:-- --:--:-- --:--:--  277k
+* Connection #1 to host 13.233.10.33 left intact
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 403 No valid crumb was included in the request</title>
+</head>
+<body><h2>HTTP ERROR 403</h2>
+<p>Problem accessing /job/try/buildWithParameters. Reason:
+<pre>    No valid crumb was included in the request</pre></p><hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>
+
+</body>
+</html>
+Finished: SUCCESS

@@ -1,0 +1,13 @@
+Started by remote host 13.232.28.38
+Building in workspace /var/lib/jenkins/workspace/try3
+[try3] $ /bin/bash /tmp/jenkins7434941333409576466.sh
+try3
+the string selected  is wdq
+the choice selected  is bike
+value at 0  car 
+value at 1  bike 
+value at 2  truck 
+the string value entered by  is wdq
+the job you have selected is    
+the choice you have selected is bike
+Finished: SUCCESS

@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4EM5ZQUHkon9hTMHMN3oUw2e8UEaVeAgoMcg5DHbt6rtAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2/1IrS4nggy0gfAAR/iEXFAAAA[0mNexus_job2" build number [8mha:////4D6pksYVbDqt80uyNh22EAlcp+DHewswys2khb/tsjqEAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwmoBn6WflJ+n6pFaXF8UCWkb6xAQCzi0r6xwAAAA==[0m30
+originally caused by:
+ Started by upstream project "[8mha:////4OQ0X8mdirhL7DyYhSqapm4RwBhOFY03kHONwetwkdGhAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JH2/1IrS4nggy9BQHwBLKnTYxgAAAA==[0mNexus_job11" build number [8mha:////4GhnNh5g3lR0FwS82uCmxyHJuDPo9hT4sN+jiNXCetTdAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZh/az8JH2/1IrS4nggy9BQ38gIABxPTP3IAAAA[0m22
+ originally caused by:
+  Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job3
+[Nexus_job3] $ /bin/sh -xe /tmp/jenkins4051713364406015471.sh
++ echo Success
+Success
+Finished: SUCCESS

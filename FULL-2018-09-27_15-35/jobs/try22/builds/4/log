@@ -1,0 +1,24 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try22
+################################################################################################################
+  Parameterized Remote Trigger Configuration:
+    - job:                     http://13.127.139.222:8080/view/try/job/try/ 
+    - remoteJenkinsName:       Remote
+    - remoteJenkinsUrl:        http://13.127.139.222:8080
+    - auth:                    'Credentials Authentication' as user 'jenkins' (Credentials ID 'jenkins')
+    - parameters:              [string=hi]
+    - blockBuildUntilComplete: false
+    - connectionRetryLimit:    5
+################################################################################################################
+Connection to remote server failed [401], waiting for to retry - 10 seconds until next attempt. URL: http://13.127.139.222:8080/view/try/job/try//api/json, parameters: 
+Retry attempt #1 out of 5
+Connection to remote server failed [401], waiting for to retry - 10 seconds until next attempt. URL: http://13.127.139.222:8080/view/try/job/try//api/json, parameters: 
+Retry attempt #2 out of 5
+Connection to remote server failed [401], waiting for to retry - 10 seconds until next attempt. URL: http://13.127.139.222:8080/view/try/job/try//api/json, parameters: 
+Retry attempt #3 out of 5
+Connection to remote server failed [401], waiting for to retry - 10 seconds until next attempt. URL: http://13.127.139.222:8080/view/try/job/try//api/json, parameters: 
+Retry attempt #4 out of 5
+Connection to remote server failed [401], waiting for to retry - 10 seconds until next attempt. URL: http://13.127.139.222:8080/view/try/job/try//api/json, parameters: 
+Build was aborted
+Aborted by [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Finished: ABORTED

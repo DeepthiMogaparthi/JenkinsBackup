@@ -1,0 +1,15 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try2
+No emails were triggered.
+[try2] $ /bin/bash /tmp/jenkins7964359868002246635.sh
+try2
+value at 0  car 
+value at 1  bike 
+value at 2  truck 
+the string value entered by  is sa
+the job you have selected is    try,try3
+the choice you have selected is bike
+Email was triggered for: Success
+Sending email for trigger: Success
+Sending email to: deepthimogaparthi1207@gmail.com
+Finished: SUCCESS

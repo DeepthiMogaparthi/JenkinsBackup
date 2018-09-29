@@ -1,0 +1,10 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/trial
+[trial] $ /bin/sh -xe /tmp/jenkins7953649338136406606.sh
++ no
+/tmp/jenkins7953649338136406606.sh: 1: /tmp/jenkins7953649338136406606.sh: no: not found
++ [ yes -eq ]
+/tmp/jenkins7953649338136406606.sh: 2: [: -eq: argument expected
++ echo You may not go to the party
+You may not go to the party
+Finished: SUCCESS

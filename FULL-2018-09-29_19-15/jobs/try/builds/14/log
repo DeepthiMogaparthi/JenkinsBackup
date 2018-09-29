@@ -1,0 +1,4 @@
+Started by remote host 13.127.139.222
+Building in workspace /var/lib/jenkins/workspace/try
+ERROR: Parameter 'Remote Job Name or URL' ('job' variable in Pipeline) not specified.
+Finished: FAILURE

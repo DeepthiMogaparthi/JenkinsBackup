@@ -1,0 +1,10 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try2
+[try2] $ /bin/sh -xe /tmp/jenkins370489993133346621.sh
++ echo try2
+try2
++ echo try2
+try2
++ string2=
++ curl -v -X --user admin:admin --url http://13.127.139.222:8080/job/try/buildWithParameters?token=abc
+Finished: SUCCESS

@@ -1,0 +1,16 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job3
+No emails were triggered.
+[Nexus_job3] $ /bin/sh -xe /tmp/jenkins2320106926394330623.sh
++ echo no
+no
++ echo tyu
+tyu
++ [ no = no ]
++ echo no mail sent
+no mail sent
++ exit
+Email was triggered for: Success
+Sending email for trigger: Success
+Sending email to: deepthimogaparthi1207@gmail.com
+Finished: SUCCESS

@@ -1,0 +1,34 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try22
+################################################################################################################
+  Parameterized Remote Trigger Configuration:
+    - job:                     try 
+    - remoteJenkinsName:       Remote
+    - remoteJenkinsUrl:        http://13.127.139.222:8080
+    - auth:                    'No Authentication'
+    - parameters:              [string=dsfs, m2=bike]
+    - blockBuildUntilComplete: false
+    - connectionRetryLimit:    5
+################################################################################################################
+Triggering parameterized remote job 'http://13.127.139.222:8080/job/try'
+  Using job-level defined 'No Authentication'
+Triggering remote job now.
+reuse cached crumb: 13.127.139.222
+  Remote job queue number: 68
+Remote build started!
+  Remote build URL: http://13.232.146.16:8080/job/try/25/
+  Remote build number: 25
+Not blocking local job until remote job completes - fire and forget.
+[try22] $ /bin/sh -xe /tmp/jenkins1880261284634199382.sh
++ echo dsfs
+dsfs
++ echo bike
+bike
++ echo
+
++ echo
+
+[try22] $ /bin/sh -xe /tmp/jenkins5048298286015803837.sh
++ [bike = car]
+/tmp/jenkins5048298286015803837.sh: 2: /tmp/jenkins5048298286015803837.sh: [bike: not found
+Finished: SUCCESS

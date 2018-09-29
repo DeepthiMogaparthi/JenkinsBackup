@@ -1,0 +1,11 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try2
+[try2] $ /bin/bash /tmp/jenkins7561563132723743705.sh
+value at 0  car 
+value at 1  bike 
+value at 2  truck 
+the choice you have selected is bike
+/tmp/jenkins7561563132723743705.sh: line 18: syntax error near unexpected token `done'
+/tmp/jenkins7561563132723743705.sh: line 18: `done'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

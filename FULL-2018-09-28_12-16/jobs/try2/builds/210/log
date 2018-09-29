@@ -1,0 +1,18 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try2
+No emails were triggered.
+[try2] $ /bin/bash /tmp/jenkins3329928349577921986.sh
+value at 0  car 
+value at 1  bike 
+value at 2  truck 
+the string value entered by  is jh
+the job you have selected is    try3
+the choice you have selected is truck
+[try2] $ /bin/sh -xe /tmp/jenkins3564626886805256543.sh
++ [ try3 = try3 ]
+/tmp/jenkins3564626886805256543.sh: 7: /tmp/jenkins3564626886805256543.sh: Bad substitution
+Build step 'Execute shell' marked build as failure
+Email was triggered for: Failure - Any
+Sending email for trigger: Failure - Any
+Sending email to: deepthimogaparthi1207@gmail.com
+Finished: FAILURE

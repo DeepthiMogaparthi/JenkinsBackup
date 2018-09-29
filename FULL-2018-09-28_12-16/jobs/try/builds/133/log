@@ -1,0 +1,12 @@
+Started by remote host 13.233.15.171
+Building in workspace /var/lib/jenkins/workspace/try
+[try] $ /bin/sh -xe /tmp/jenkins8099624700459842788.sh
++ echo try1
+try1
++ echo the string coming from job2 is j
+the string coming from job2 is j
++ echo the choice coming from job2 is bike
+the choice coming from job2 is bike
+/tmp/jenkins8099624700459842788.sh: 11: /tmp/jenkins8099624700459842788.sh: Bad substitution
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

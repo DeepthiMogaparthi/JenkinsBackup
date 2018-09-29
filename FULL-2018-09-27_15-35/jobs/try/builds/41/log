@@ -1,0 +1,19 @@
+Started by remote host 13.127.187.28
+Building in workspace /var/lib/jenkins/workspace/try
+[try] $ /bin/sh -xe /tmp/jenkins1262345689939608400.sh
++ echo try1
+try1
++ string1=
++ echo
+
++ echo
+
++ echo
+
++ echo car
+car
++ echo
+
++ curl -v --user admin:admin --request -X GET --url http://13.127.187.28:8080/job/try2/buildWithParameters?token=xyz
+[try] $ /bin/sh -xe /tmp/jenkins3658462386971956823.sh
+Finished: SUCCESS

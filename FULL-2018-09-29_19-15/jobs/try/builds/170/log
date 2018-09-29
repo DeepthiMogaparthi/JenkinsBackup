@@ -1,0 +1,8 @@
+Started by remote host 13.233.15.171
+Building in workspace /var/lib/jenkins/workspace/try
+[try] $ /bin/bash /tmp/jenkins6367837703457791642.sh
+try1
+the string coming from job2 is xa
+the choice coming from job2 is bike
+the checkbox choice coming from job2 is  
+Finished: SUCCESS

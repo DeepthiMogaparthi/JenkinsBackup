@@ -1,0 +1,9 @@
+Started by remote host 13.233.15.171
+Building in workspace /var/lib/jenkins/workspace/try3
+[try3] $ /bin/bash /tmp/jenkins3969926042460528571.sh
+try3
+the string coming from job2 is ada
+/tmp/jenkins3969926042460528571.sh: line 12: unexpected EOF while looking for matching `"'
+/tmp/jenkins3969926042460528571.sh: line 20: syntax error: unexpected end of file
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,8 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job3
+[Nexus_job3] $ /bin/sh -xe /tmp/jenkins8712293498142167003.sh
++ echo Sending an attachment.
++ mutt -a -s deepthimogaparthi127@gmail.com
+/tmp/jenkins8712293498142167003.sh: 4: /tmp/jenkins8712293498142167003.sh: mutt: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

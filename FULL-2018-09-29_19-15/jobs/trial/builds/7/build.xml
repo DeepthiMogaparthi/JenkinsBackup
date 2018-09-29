@@ -1,0 +1,60 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>select</name>
+          <description>select any 1</description>
+          <value>yes</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>string1</name>
+          <description>string1</description>
+          <value>string1</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.FileParameterValue>
+          <name>file1</name>
+          <description>file1</description>
+          <originalFileName></originalFileName>
+          <location>file1</location>
+        </hudson.model.FileParameterValue>
+        <hudson.model.FileParameterValue>
+          <name>file2</name>
+          <description>file1</description>
+          <originalFileName></originalFileName>
+          <location>file2</location>
+        </hudson.model.FileParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>select</string>
+        <string>string1</string>
+        <string>file1</string>
+        <string>file2</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>50</queueId>
+  <timestamp>1537284393681</timestamp>
+  <startTime>1537284393684</startTime>
+  <result>SUCCESS</result>
+  <duration>44</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/Nexus_job11</workspace>
+  <hudsonVersion>2.138.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

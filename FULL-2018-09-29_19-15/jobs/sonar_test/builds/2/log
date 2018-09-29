@@ -1,0 +1,20 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/sharedspace
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/DevopsDevOrg/Repo1.git # timeout=10
+Fetching upstream changes from https://github.com/DevopsDevOrg/Repo1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/DevopsDevOrg/Repo1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 39e84c4fef497cc2ea16467f51a56e6a913ae80a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 39e84c4fef497cc2ea16467f51a56e6a913ae80a
+Commit message: "Create hello"
+ > git rev-list --no-walk 39e84c4fef497cc2ea16467f51a56e6a913ae80a # timeout=10
+[sharedspace] $ /bin/sh -xe /tmp/jenkins8133813141281109959.sh
++ sudo cp /var/lib/jenkins/sharedspace /var/repository
+cp: omitting directory '/var/lib/jenkins/sharedspace'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

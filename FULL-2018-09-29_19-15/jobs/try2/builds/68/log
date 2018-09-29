@@ -1,0 +1,162 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try2
+[try2] $ /bin/sh -xe /tmp/jenkins7585255616346820870.sh
++ echo try2
+try2
++ curl -v -X --user admin:admin http://13.233.10.33:8080/job/try/buildWithParameters?token=abc&string=$string2&m2=$choice2
+* Rebuilt URL to: admin:admin/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Could not resolve host: admin
+* Closing connection 0
+curl: (6) Could not resolve host: admin
+*   Trying 13.233.10.33...
+* Connected to 13.233.10.33 (13.233.10.33) port 8080 (#1)
+> --user /job/try/buildWithParameters?token=abc&string=$string2&m2=$choice2 HTTP/1.1
+> Host: 13.233.10.33:8080
+> User-Agent: curl/7.47.0
+> Accept: */*
+> 
+< HTTP/1.1 500 Server Error
+< Date: Wed, 26 Sep 2018 09:45:42 GMT
+< X-Content-Type-Options: nosniff
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Cache-Control: no-cache,no-store,must-revalidate
+< X-Hudson-Theme: default
+< Referrer-Policy: same-origin
+< Content-Type: text/html;charset=utf-8
+< Set-Cookie: JSESSIONID.05a8da71=node0d4e5ksk4ggdh8q1mfeef7ufm10.node0;Path=/;HttpOnly
+< X-Hudson: 1.395
+< X-Jenkins: 2.138.1
+< X-Jenkins-Session: f236f432
+< X-Frame-Options: sameorigin
+< X-Instance-Identity: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvvgm5d+JrdO8hC5ZKXuzPAGA65j0Feum/F34kaD4Z8f68vxVmpodUJf1PGwxHfmpgelaBEEB9b6BM8slPaSU0WLnPgj0Mvv61Z/MdyaAVrR1LSmUEF9t87zdr6YnG1o5HslEkvyg6sb6J6g4N6Q5d2wBVvCPfZLzOcxHqscF9RvjAyBWkzAhYupEh25cS5p8xAFRcdi+rdNN6EhibqmtKQhdy+TrKm/EO2QaCp1EW2hv848FHnq4eFpRPfOSJ1h2BkB8Ko9ZMTTzvw5y7D7O6CLo5sfO+zmfGJndPJ29Sr+bZpMjH51GyirW5erJK8tUJyNQ1Tv9XFFI7kObepFTbwIDAQAB
+< Content-Length: 16358
+< Server: Jetty(9.4.z-SNAPSHOT)
+< 
+{ [1962 bytes data]
+
+
+
+
+
+  
+  <!DOCTYPE html><html><head resURL="/static/f236f432" data-rooturl="" data-resurl="/static/f236f432">
+    
+
+    <title>Jenkins [Jenkins]</title><link rel="stylesheet" href="/static/f236f432/css/layout-common.css" type="text/css" /><link rel="stylesheet" href="/static/f236f432/css/style.css" type="text/css" /><link rel="stylesheet" href="/static/f236f432/css/color.css" type="text/css" /><link rel="stylesheet" href="/static/f236f432/css/responsive-grid.css" type="text/css" /><link rel="shortcut icon" href="/static/f236f432/favicon.ico" type="image/vnd.microsoft.icon" /><link color="black" rel="mask-icon" href="/images/mask-icon.svg" /><script>var isRunAsTest=false; var rootURL=""; var resURL="/static/f236f432";</script><script src="/static/f236f432/scripts/prototype.js" type="text/javascript"></script><script src="/static/f236f432/scripts/behavior.js" type="text/javascript"></script><script src='/adjuncts/f236f432/org/kohsuke/stapler/bind.js' type='text/javascript'></script><script src="/static/f236f432/scripts/yui/yahoo/yahoo-min.js"></script><script src="/static/f236f432/scripts/yui/dom/dom-min.js"></script><script src="/static/f236f432/scripts/yui/event/event-min.js"></script><script src="/static/f236f432/scripts/yui/animation/animation-min.js"></script><script src="/static/f236f432/scripts/yui/dragdrop/dragdrop-min.js"></script><script src="/static/f236f432/scripts/yui/container/container-min.js"></script><script src="/static/f236f432/scripts/yui/connection/connection-min.js"></script><script src="/static/f236f432/scripts/yui/datasource/datasource-min.js"></script><script src="/static/f236f432/scripts/yui/autocomplete/autocomplete-min.js"></script><script src="/static/f236f432/scripts/yui/menu/menu-min.js"></script><script src="/static/f236f432/scripts/yui/element/element-min.js"></script><script src="/static/f236f432/scripts/yui/button/button-min.js"></script><script src="/static/f236f432/scripts/yui/storage/storage-min.js"></script><script src="/static/f236f432/scripts/hudson-behavior.js" type="text/javascript"></script><script src="/static/f236f432/scripts/sortable.js" type="text/javascript"></script><script>crumb.init("Jenkins-Crumb", "e2a66ac5c7d5fae19c64e7edcbdb3f9a");</script><link rel="stylesheet" href="/static/f236f432/scripts/yui/container/assets/container.css" type="text/css" /><link rel="stylesheet" href="/static/f236f432/scripts/yui/assets/skins/sam/skin.css" type="text/css" /><link rel="stylesheet" href="/static/f236f432/scripts/yui/container/assets/skins/sam/container.css" type="text/css" /><link rel="stylesheet" href="/static/f236f432/scripts/yui/button/assets/skins/sam/button.css" type="text/css" /><link rel="stylesheet" href="/static/f236f432/scripts/yui/menu/assets/skins/sam/menu.css" type="text/css" /><link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Jenkins" /><meta name="ROBOTS" content="INDEX,NOFOLLOW" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script src="/adjuncts/f236f432/org/kohsuke/stapler/jquery/jquery.full.js" type="text/javascript"></script><script>var Q=jQuery.noConflict()</script><script>
+      if(window.Prototype && JSON) {
+        var _json_stringify = JSON.stringify;
+        JSON.stringify = function(value) {
+            var _array_tojson = Array.prototype.toJSON;
+            delete Array.prototype.toJSON;
+            var r=_json_stringify(value);
+            Array.prototype.toJSON = _array_tojson;
+            return r;
+        };
+     }  
+   </script><script src="/plugin/extended-choice-parameter/js/selectize.min.js" type="text/javascript"></script><script src="/plugin/extended-choice-parameter/js/jsoneditor.min.js" type="text/javascript"></script><script src="/plugin/extended-choice-parameter/js/jquery.jsonview.min.js" type="text/javascript"></script><link rel="stylesheet" href="/plugin/extended-choice-parameter/css/jquery.jsonview.css" /><link rel="stylesheet" id="icon_stylesheet" href="/plugin/extended-choice-parameter/css/selectize.css" /><link rel="stylesheet" id="icon_stylesheet" href="/plugin/extended-choice-parameter/css/selectize.bootstrap2.css" /><link rel="stylesheet" id="theme_stylesheet" /><link rel="stylesheet" id="icon_stylesheet" /><script src="/static/f236f432/jsbundles/page-init.js" type="text/javascript"></script></head><body data-model-type="hudson.model.Hudson" id="jenkins" class="yui-skin-sam two-column jenkins-2.138.1" data-version="2.138.1"><a href="#skip2content" class="skiplink">Skip to content</a><div id="page-head"><div id="header"><div class="logo"><a id="jenkins-home-link" href="/"><img src="/static/f236f432/images/headshot.png" alt="[Jenkins]" id="jenkins-head-icon" /><img src="/static/f236f432/images/title.png" alt="Jenkins" width="139" id="jenkins-name-icon" height="34" /></a></div><div class="login"> <a href="/login?from=%2Fjob%2Ftry%2FbuildWithParameters"><b>log in</b></a>
+    |
+    <a href="/signup"><b>sign up</b></a></div><div class="searchbox hidden-xs"><form method="get" name="search" action="/search/" style="position:relative;" class="no-json"><div id="search-box-minWidth"></div><div id="search-box-sizer"></div><div id="searchform"><input name="q" placeholder="search" id="search-box" class="has-default-text" /> <a href="https://jenkins.io/redirect/search-box"><img src="/static/f236f432/images/16x16/help.png" style="width: 16px; height: 16px; " class="icon-help icon-sm" /></a><div id="search-box-completion"></div><script>createSearchBox("/search/");</script></div></form></div></div><div id="breadcrumbBar"><tr id="top-nav"><td id="left-top-nav" colspan="2"><link rel='stylesheet' href='/adjuncts/f236f432/lib/layout/breadcrumbs.css' type='text/css' /><script src='/adjuncts/f236f432/lib/layout/breadcrumbs.js' type='text/javascript'></script><div class="top-sticker noedge"><div class="top-sticker-inner"><div id="right-top-nav"></div><ul id="breadcrumbs"><li class="item"><a href="/" class="model-link inside">Jenkins</a></li><li href="/" class="children"></li></ul><div id="breadcrumb-menu-target"></div></div></div></td></tr></div></div><div id="page-body" class="clear"><div id="side-panel"><div class="task"><a href="https://jenkins.io/" class="task-icon-link"><img src="/static/f236f432/images/24x24/next.png" style="width: 24px; height: 24px; width: 24px; height: 24px; margin: 2px;" class="icon-next icon-md" /></a> <a href="https://jenkins.io/" class="task-link">Jenkins project</a></div><div class="task"><a href="https://jenkins.io/redirect/report-an-issue" class="task-icon-link"><img src="/static/f236f432/images/24x24/gear2.png" style="width: 24px; height: 24px; width: 24px; height: 24px; margin: 2px;" class="icon-gear2 icon-md" /></a> <a href="https://jenkins.io/redirect/report-an-issue" class="task-link">Bug tracker</a></div><div class="task"><a href="https://jenkins.io/redirect/mailing-lists" class="task-icon-link"><img src="/static/f236f432/images/24x24/search.png" style="width: 24px; height: 24px; width: 24px; height: 24px; margin: 2px;" class="icon-search icon-md" /></a> <a href="https://jenkins.io/redirect/mailing-lists" class="task-link">Mailing Lists</a></div><div class="task"><a href="https://twitter.com/jenkinsci" class="task-icon-link"><img src="/static/f236f432/images/24x24/user.png" style="width: 24px; height: 24px; width: 24px; height: 24px; margin: 2px;" class="icon-user icon-md" /></a> <a href="https://twitter.com/jenkinsci" class="task-link">Twitter: @jenkinsci</a></div></div><div id="main-panel"><a name="skip2content"></a><h1 style="text-align: center"><img src="/static/f236f432/images/rage.png" width="154" height="179" /><span style="font-size:50px"> Oops!</span></h1><div id="error-description"><p>A problem occurred while processing the request.
+        Please check <a href="https://jenkins.io/redirect/issue-tracker">our bug tracker</a> to see if a similar problem has already been reported.
+        If it is already reported, please vote and put a comment on it to let us gauge the impact of the problem.
+        If you think this is a new issue, please file a new issue.
+        When you file an issue, make sure to add the entire stack trace, along with the version of Jenkins and relevant plugins.
+        <a href="https://jenkins.io/redirect/users-mailing-list">The users list</a> might be also useful in understanding what has happened.</p><h2>Stack trace</h2><pre style="margin:2em; clear:both">java.lang.IllegalArgumentException: Illegal choice for parameter m2: $choice2
+	at hudson.model.ChoiceParameterDefinition.checkValue(ChoiceParameterDefinition.java:138)
+	at hudson.model.ChoiceParameterDefinition.createValue(ChoiceParameterDefinition.java:150)
+	at hudson.model.ChoiceParameterDefinition.createValue(ChoiceParameterDefinition.java:25)
+	at hudson.model.SimpleParameterDefinition.createValue(SimpleParameterDefinition.java:35)
+	at hudson.model.ParametersDefinitionProperty.buildWithParameters(ParametersDefinitionProperty.java:182)
+	at jenkins.model.ParameterizedJobMixIn.doBuildWithParameters(ParameterizedJobMixIn.java:237)
+	at jenkins.model.ParameterizedJobMixIn$ParameterizedJob.doBuildWithParameters(ParameterizedJobMixIn.java:417)
+	at java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:627)
+	at org.kohsuke.stapler.Function$MethodFunction.invoke(Function.java:343)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:184)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:117)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:129)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:734)
+Caused: javax.servlet.ServletException
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:784)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:864)
+	at org.kohsuke.stapler.MetaClass$5.doDispatch(MetaClass.java:248)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:58)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:734)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:864)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:668)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:238)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1655)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:154)
+	at io.jenkins.blueocean.ResourceCacheControl.doFilter(ResourceCacheControl.java:134)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at io.jenkins.blueocean.auth.jwt.impl.JwtAuthenticationFilter.doFilter(JwtAuthenticationFilter.java:61)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:151)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:157)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:105)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.UnwrapSecurityExceptionFilter.doFilter(UnwrapSecurityExceptionFilter.java:51)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:117)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.providers.anonymous.AnonymousProcessingFilter.doFilter(AnonymousProcessingFilter.java:125)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.rememberme.RememberMeProcessingFilter.doFilter(RememberMeProcessingFilter.java:135)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.ui.AbstractProcessingFilter.doFilter(AbstractProcessingFilter.java:271)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at jenkins.security.BasicHeaderProcessor.doFilter(BasicHeaderProcessor.java:93)
+	at100 16358  100 16358    0     0  1532k      0 --:--:-- --:--:-- --:--:-- 1532k
+* Connection #1 to host 13.233.10.33 left intact
+ hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at org.acegisecurity.context.HttpSessionContextIntegrationFilter.doFilter(HttpSessionContextIntegrationFilter.java:249)
+	at hudson.security.HttpSessionContextIntegrationFilter2.doFilter(HttpSessionContextIntegrationFilter2.java:67)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:87)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:90)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:171)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:49)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:82)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.kohsuke.stapler.DiagnosticThreadNameFilter.doFilter(DiagnosticThreadNameFilter.java:30)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1642)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:524)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1317)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1219)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:531)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:352)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:281)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at winstone.BoundedExecutorService.lambda$scheduleNext$0(BoundedExecutorService.java:80)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></div></div><footer><div class="container-fluid"><div class="row"><div class="col-md-6" id="footer"></div><div class="col-md-18"><span class="page_generated">Page generated: Sep 26, 2018 9:45:42 AM UTC</span><span class="rest_api"><a href="api/">REST API</a></span><span class="jenkins_ver"><a href="https://jenkins.io/">Jenkins ver. 2.138.1</a></span>
+    
+    </div></div></div></footer></body></html>+ echo car
+car
+Finished: SUCCESS

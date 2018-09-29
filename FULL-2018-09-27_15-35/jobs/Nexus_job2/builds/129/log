@@ -1,0 +1,17 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Started by upstream project "[8mha:////4D4eNwE+1K+Bzd/GTsszQnUzDjuiHNrdm55iIeuJY/dLAAAAwB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZTfbOUJCNTE8tkXbM0i0Rdk2RTI90kM8tE3STDNONEEwvzNINkC/2s/CR9v9SK0uJ4IMtQHwBd9/5Y6gAAAA==[0mNexus_job1" build number [8mha:////4FYm0AsoLguVwLUjegavF+cSxwlTd3C4E8OWORkC0tQqAAAAwh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZzfbOUJCNTE8tkXbM0i0Rdk2RTI90kM8tE3STDNONEEwvzNINkC/2s/CR9v9SK0uJ4IMtQ39ISALEPPPvsAAAA[0m99
+originally caused by:
+ Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job2
+[Nexus_job2] $ /bin/sh -xe /tmp/jenkins6334568454463747758.sh
++ echo yes
+yes
++ echo Hello World
+Hello World
++ echo aws_pub
+aws_pub
++ echo lol.txt
+lol.txt
++ echo /var/lib/jenkins/workspace/Nexus_job1
+/var/lib/jenkins/workspace/Nexus_job1
+Finished: SUCCESS

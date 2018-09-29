@@ -1,0 +1,13 @@
+Started by remote host 13.232.161.117
+Building in workspace /var/lib/jenkins/workspace/try3
+[try3] $ /bin/bash /tmp/jenkins779948180470344679.sh
+try3
+the string selected  is rgefsd
+the choice selected  is truck
+value at 0  car 
+value at 1  bike 
+value at 2  truck 
+the string value entered by  is rgefsd
+the job you have selected is    
+the choice you have selected is truck
+Finished: SUCCESS

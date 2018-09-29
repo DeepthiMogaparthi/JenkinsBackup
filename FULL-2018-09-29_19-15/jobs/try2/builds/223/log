@@ -1,0 +1,15 @@
+Started by remote host 13.232.161.117
+Building in workspace /var/lib/jenkins/workspace/try2
+No emails were triggered.
+[try2] $ /bin/bash /tmp/jenkins6675997122814088517.sh
+try2
+value at 0  car 
+value at 1  bike 
+value at 2  truck 
+the string value entered by  is 3r2
+the job you have selected is    
+the choice you have selected is truck
+Email was triggered for: Success
+Sending email for trigger: Success
+Sending email to: deepthimogaparthi1207@gmail.com
+Finished: SUCCESS

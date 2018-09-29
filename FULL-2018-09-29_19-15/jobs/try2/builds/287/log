@@ -1,0 +1,19 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/try2
+No emails were triggered.
+[try2] $ /bin/bash /tmp/jenkins7737076513275199661.sh
+try2
+http://13.232.28.38:8080
+value at 0  car 
+value at 1  bike 
+value at 2  truck 
+the string value entered by  is nn
+the choice you have selected is bike
+the job you have selected is    try,try3
+ADD1=try
+ADD2=try3
+The file failed because of unmatching
+Email was triggered for: Success
+Sending email for trigger: Success
+Sending email to: deepthimogaparthi1207@gmail.com
+Finished: SUCCESS

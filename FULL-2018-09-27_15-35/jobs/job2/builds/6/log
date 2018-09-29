@@ -1,0 +1,15 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/job2
+[job2] $ /bin/sh -xe /tmp/jenkins920968915929251388.sh
++ echo job1
+job1
++ echo this is string 2
+this is string 2
++ echo cycle
+cycle
++ curl -X POST http://admin:115d4438f05277bfb6d7e508c7170f7751@http://13.232.10.185:8080/job/job2/build?token=abcd
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: http
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

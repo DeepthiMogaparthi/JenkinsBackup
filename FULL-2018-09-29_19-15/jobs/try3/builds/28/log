@@ -1,0 +1,19 @@
+Started by remote host 13.232.28.38
+Building in workspace /var/lib/jenkins/workspace/try3
+No emails were triggered.
+[try3] $ /bin/bash /tmp/jenkins6458828914619633452.sh
+try3
+http://13.232.28.38:8080
+value at 0  car 
+value at 1  bike 
+value at 2  truck 
+the string value entered by  is sdfghj
+the choice you have selected is truck
+the job you have selected is    
+value in ADD1 is 
+value in ADD2 is 
+The file failed because of unmatching
+Email was triggered for: Success
+Sending email for trigger: Success
+Sending email to: deepthimogaparthi1207@gmail.com deepthimogaparthi127@gmail.com
+Finished: SUCCESS

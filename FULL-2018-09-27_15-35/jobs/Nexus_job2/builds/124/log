@@ -1,0 +1,88 @@
+Started by upstream project "[8mha:////4N7bnUO+v6w5MMMgtxOOCpdVqKmISsCEM1DvprDpdegHAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2/1IrS4nggy1AfAMcspW7FAAAA[0mNexus_job1" build number [8mha:////4Gm2/OIpAA8ZwE8Ko8Wb7UcGrb666O65UDC0jfEidxvoAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwmoBn6WflJ+n6pFaXF8UCWob6lCQDOCH0VxwAAAA==[0m94
+originally caused by:
+ Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job2
+[Nexus_job2] $ /bin/sh -xe /tmp/jenkins3136848617449495916.sh
++ echo yes
+yes
++ echo Hello World
+Hello World
++ echo assignment1[552].txt
+assignment1[552].txt
++ echo lol2.txt
+lol2.txt
++ echo /var/lib/jenkins/workspace/Nexus_job1
+/var/lib/jenkins/workspace/Nexus_job1
++ curl -v -u admin:admin123 -T /var/lib/jenkins/workspace/Nexus_job1/ -g http://13.126.242.125:8081/nexus/content/repositories/repo1/assignment1[552].txt
+*   Trying 13.126.242.125...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to 13.126.242.125 (13.126.242.125) port 8081 (#0)
+* Server auth using Basic with user 'admin'
+> PUT /nexus/content/repositories/repo1/assignment1[552].txt HTTP/1.1
+> Host: 13.126.242.125:8081
+> Authorization: Basic YWRtaW46YWRtaW4xMjM=
+> User-Agent: curl/7.47.0
+> Accept: */*
+> Transfer-Encoding: chunked
+> Expect: 100-continue
+> 
+< HTTP/1.1 100 Continue
+} [5 bytes data]
+< HTTP/1.1 400 Bad Request
+< Date: Thu, 20 Sep 2018 15:35:39 GMT
+< Server: Nexus/2.14.10-01
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Transfer-Encoding: chunked
+< 
+{ [760 bytes data]
+100   758    0   753    0     5  32253    214 --:--:-- --:--:-- --:--:-- 32739
+* Connection #0 to host 13.126.242.125 left intact
+<html>
+  <head>
+    <title>400 - Repository with ID='repo1' does not allow updating artifacts.</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <link rel="icon" type="image/png" href="http://13.126.242.125:8081/nexus/favicon.png">
+    <!--[if IE]>
+    <link rel="SHORTCUT ICON" href="http://13.126.242.125:8081/nexus/favicon.ico"/>
+    <![endif]-->
+
+    <link rel="stylesheet" href="http://13.126.242.125:8081/nexus/static/css/Sonatype-content.css?2.14.10-01" type="text/css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <h1>400 - Repository with ID='repo1' does not allow updating artifacts.</h1>
+    <p>Repository with ID='repo1' does not allow updating artifacts.</p>
+  </body>
+</html>
++ curl -v -u admin:admin123 -T /var/lib/jenkins/workspace/Nexus_job1/ -g http://13.126.242.125:8081/nexus/content/repositories/repo1/lol2.txt
+*   Trying 13.126.242.125...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Connected to 13.126.242.125 (13.126.242.125) port 8081 (#0)
+* Server auth using Basic with user 'admin'
+> PUT /nexus/content/repositories/repo1/lol2.txt HTTP/1.1
+> Host: 13.126.242.125:8081
+> Authorization: Basic YWRtaW46YWRtaW4xMjM=
+> User-Agent: curl/7.47.0
+> Accept: */*
+> Transfer-Encoding: chunked
+> Expect: 100-continue
+> 
+< HTTP/1.1 100 Continue
+} [5 bytes data]
+< HTTP/1.1 201 Created
+< Date: Thu, 20 Sep 2018 15:35:39 GMT
+< Server: Nexus/2.14.10-01
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Accept-Ranges: bytes
+< Content-Length: 0
+< 
+100     5    0     0    0     5      0     96 --:--:-- --:--:-- --:--:--    98
+* Connection #0 to host 13.126.242.125 left intact
+Triggering a new build of [8mha:////4GA01hH/YKE/GiEZN6kcwa8xtNjDVO5zu2LW/JtHqfrlAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH2/1IrS4nggy1gfAEVOk1zFAAAA[0mNexus_job3
+Finished: SUCCESS

@@ -1,0 +1,14 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/Nexus_job11
+Copying file to file1
+Copying file to file2
+[Nexus_job11] $ /bin/sh -xe /tmp/jenkins4681561472952642954.sh
++ echo choice param:  yes
+choice param:  yes
++ echo string param:  string1
+string param:  string1
++ echo file1 param:   file1.txt
+file1 param:   file1.txt
++ echo file2 param:   file2.txt
+file2 param:   file2.txt
+Finished: SUCCESS

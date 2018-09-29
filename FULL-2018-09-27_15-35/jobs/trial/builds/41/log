@@ -1,0 +1,9 @@
+Started by user [8mha:////4JHX9KC+Nlo+OySbwnrCvHdweRsWBVwiMfqJbFXf44JWAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Building in workspace /var/lib/jenkins/workspace/trial
+Run condition [Strings match] enabling prebuild for step [Trigger/call builds on other projects]
+Strings match run condition: string 1=[true], string 2=[true]
+Run condition [Strings match] enabling perform for step [Trigger/call builds on other projects]
+Triggering projects: [8mha:////4OMNX/NkgHCQQ27EnU/KQGpMrNc/giO9l73l+Mo7xUeOAAAAjx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKmEQ0M/KT9L3S60oLY4Hsoz1AaUEbOSVAAAA[0mNexus_job3
+Strings match run condition: string 1=[true], string 2=[true]
+Run condition [Strings match] enabling perform for step [Builder to mark whether executed]
+Finished: SUCCESS
